@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="9.0" layoutY="7.0" prefHeight="228.0" prefWidth="156.0">
+         <children>
+            <Label text="Weight(lb/kg)">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Height(in/m)">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Calculate" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label text="Result (BMI) :" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="162.0" layoutY="7.0" prefHeight="200.0" prefWidth="247.0">
+         <children>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField prefHeight="29.0" prefWidth="246.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Answer">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="67.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="443.0" layoutY="7.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <ComboBox prefWidth="150.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox prefWidth="150.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+      <VBox layoutX="9.0" layoutY="200.0" prefHeight="193.0" prefWidth="130.0">
+         <children>
+            <Label text="BMI VALUES" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Underweight :  ">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Normal : ">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Overweight : ">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Obese : ">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="162.0" layoutY="235.0" prefHeight="137.0" prefWidth="219.0">
+         <children>
+            <Label text="less than 18.5">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="between 18.5 and 24.9">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="between 25 and 29.9">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="30 or greater">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
